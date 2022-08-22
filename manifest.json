@@ -9,11 +9,11 @@
   "start_url": "./?utm_source=web_app_manifest",
   "scope": "./",
   "lang": "es-MX",
-    "icons": [
+  "icons": [
     {
-      "src": "img/e.png",
+      "src": "img/icono.svg",
       "sizes": "400x400",
-      "type": "image/png"
+      "type": "image/svg"
     }
   ]
 }
