@@ -11,7 +11,7 @@
   "lang": "es-MX",
   "icons": [
     {
-      "src": "img/icono.svg",
+      "src": "img/menu/icono.svg",
       "sizes": "400x400",
       "type": "image/svg"
     }
