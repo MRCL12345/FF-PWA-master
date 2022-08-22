@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="description" content="">
+  <link rel="shortchut icon" type="image/svg" href="img/menu/icono.svg">
+  <!--PWA-->
+  <link rel="apple-touch-icon" href="img/menu/icono.svg">
+  <link rel="apple-touch-startup-image" href="img/menu/icono.svg">
+  <link rel="manifest" href="./manifest.json">
+  <!--Style-->
+  <link rel="stylesheet" href="style/general.css">
+  <link rel="stylesheet" href="style/menu.css">
+  <link rel="stylesheet" href="style/calculator.css">
+
+</head>
+
+<body>
+  <section class="nav">
+    <ul>
+      <li class="list">
+        <a href="index.html">
+          <span class="icon">
+            <ion-icon name="home-outline"></ion-icon>
+          </span>
+          <span class="txt">Inicio</span>
+        </a>
+      </li>
+      <li class="list active">
+        <a href="#">
+          <div class="ind"></div>
+          <span class="icon">
+            <ion-icon name="calculator-outline"></ion-icon>
+          </span>
+          <span class="txt">Calculador</span>
+        </a>
+      </li>
+      <li class="list">
+        <a href="support.html">
+          <span class="icon">
+            <ion-icon name="cog-outline"></ion-icon>
+          </span>
+          <span class="txt">Soporte</span>
+        </a>
+      </li>
+    </ul>
+  </section>
+  <!---->
+  <section class="content">
+    <div class="info">
+      <div class="box">
+        <h3>Conversor</h3>
+        <ul>
+          <li><a href="#" onclick="masa()">Masa</a></li>
+          <li><a href="#" onclick="distancia()">Distancia</a></li>
+          <li><a href="#" onclick="w_hp()">Whatts y Hp</a></li>
+          <li><a href="#" onclick="temp()">Temperatura</a></li>
+        </ul>
+      </div>
+      <div class="box">
+        <h3>Temas</h3>
+        <ul>
+          <li><a href="#" onclick="v()">Velocidad</a></li>
+          <li><a href="#" onclick="">Aceleración</a></li>
+          <li><a href="#" onclick="">Fuerza</a></li>
+          <li><a href="#" onclick="">Energía Potencial</a></li>
+          <li><a href="#" onclick="">Energía Cinética</a></li>
+          <li><a href="#" onclick="">Energía Mecánica</a></li>
+          <li><a href="#" onclick="">Potencia</a></li>
+          <li><a href="#" onclick="">Trabajo Mecánico</a></li>
+          <li><a href="#" onclick="">Trabajo</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!--Scripts-->
+  <!--PWA-->
+  <script src="scripts/script.js"></script>
+  <script src="scripts/sw.js"></script>
+  <!--IONICONS-->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!--SweetAlert-->
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <!--Archives-->
+  <script src="scripts/fisic/conversor.js"></script>
+  <script src="scripts/fisic/temas.js"></script>
+</body>
+
+</html>

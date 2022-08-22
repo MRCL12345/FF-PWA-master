@@ -1,0 +1,54 @@
+.boxes {
+  float: right;
+  margin: 30% 5% 0 0;
+}
+.box {
+  background: #043f8c;
+  width: 300px;
+  height: 75px;
+  border-radius: 5px;
+  margin: 0 0 15px 0;
+}
+.box img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-block: 8px;
+  position: absolute;
+  margin-left: 230px;
+}
+.box .txt {
+  position: absolute;
+  max-width: 170px;
+  max-height: 70px;
+  font-size: 12px;
+  font-weight: 100;
+  margin: 10px;
+  user-select: none;
+  color: #c8c8c8;
+}
+.box h4 {
+  color: #c8c8c8;
+}
+@media screen and (min-width: 750px) {
+  .boxes {
+    margin: 15% 10% 0 0;
+  }
+  .box {
+    width: 400px;
+    height: 100px;
+    margin: 0 0 20px 0;
+  }
+  .box img {
+    width: 80px;
+    height: 80px;
+    margin-block: 10.67px;
+    margin-left: 306.67px;
+  }
+  .box .txt {
+    max-width: 206.67px;
+    max-height: 93.33;
+    font-size: 16px;
+    margin: 13.33px;
+  }
+}

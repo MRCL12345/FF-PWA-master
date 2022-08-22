@@ -1,0 +1,23 @@
+.info {
+  color: black;
+}
+.box {
+  background: #e5e5e5;
+  width: 95%;
+  min-height: 80px;
+  height: fit-content;
+  margin: auto;
+  border-radius: 7px;
+  margin-bottom: 3%;
+}
+.box h3 {
+  text-align: center;
+}
+.box li {
+  background-color: #f2cb05;
+  width: fit-content;
+  padding: 3%;
+  display: inline-block;
+  margin: 1%;
+  border-radius: 12px;
+}

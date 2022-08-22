@@ -1,0 +1,19 @@
+{
+  "name": "FormuFisic",
+  "short_name": "FormuFisic",
+  "description": "Bienvenidos a FormuFisic",
+  "background_color": "#FFFFFF",
+  "theme_color": "#1A82EA",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "./?utm_source=web_app_manifest",
+  "scope": "./",
+  "lang": "es-MX",
+    "icons": [
+    {
+      "src": "img/e.png",
+      "sizes": "400x400",
+      "type": "image/png"
+    }
+  ]
+}

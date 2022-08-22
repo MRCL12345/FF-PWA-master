@@ -1,0 +1,68 @@
+.head {
+  min-height: 150px;
+  max-height: 200px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%),
+    url("descarga.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+.head img {
+  width: 100%;
+  position: absolute;
+}
+.title {
+  position: relative;
+}
+.title h1 {
+  padding: 10px;
+}
+.date {
+  color: black;
+}
+.date .txt {
+  margin: 10px 10px 0 10px;
+  padding: 5px 5px 0 5px;
+  background: #e5e5e5;
+  border-radius: 7px;
+}
+.table_title {
+  background: #f2cb05;
+  width: fit-content;
+  padding: 10px 15px 10px 15px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 7px;
+}
+.table {
+  background: white;
+  width: 98%;
+  margin: auto;
+  margin-bottom: 5%;
+  border-radius: 7px;
+  padding: 0;
+}
+.table td {
+  padding-inline: 2%;
+}
+
+.table_ex {
+  background: white;
+  width: fit-content;
+  font-size: medium;
+  color: black;
+  margin: auto;
+  margin-top: 10px;
+}
+.table_ex tr {
+  text-align: center;
+}
+.t1 {
+  color: red;
+}
+.t2 {
+  color: blue;
+}
+.t3 {
+  color: green;
+}

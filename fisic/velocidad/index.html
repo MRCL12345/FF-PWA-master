@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="description" content="">
+  <link rel="shortchut icon" type="image/svg" href="img/menu/icono.svg">
+  <!--PWA-->
+  <link rel="apple-touch-icon" href="img/menu/icono.svg">
+  <link rel="apple-touch-startup-image" href="img/menu/icono.svg">
+  <link rel="manifest" href="../../manifest.json">
+  <!--Style-->
+  <link rel="stylesheet" href="../../style/general.css">
+  <link rel="stylesheet" href="../../style/menu.css">
+  <link rel="stylesheet" href="../../style/fisic.css">
+</head>
+
+<body>
+  <section class="nav">
+    <ul>
+      <li class="list active">
+        <a href="../../index.html">
+          <div class="ind"></div>
+          <span class="icon">
+            <ion-icon name="home-outline"></ion-icon>
+          </span>
+          <span class="txt">Inicio</span>
+        </a>
+      </li>
+      <li class="list">
+        <a href="../../calculator.html">
+          <span class="icon">
+            <ion-icon name="calculator-outline"></ion-icon>
+          </span>
+          <span class="txt">Calculador</span>
+        </a>
+      </li>
+      <li class="list">
+        <a href="../../support.html">
+          <span class="icon">
+            <ion-icon name="cog-outline"></ion-icon>
+          </span>
+          <span class="txt">Soporte</span>
+        </a>
+      </li>
+    </ul>
+  </section>
+  <!---->
+  <section class="content">
+    <div class="head">
+      <div class="title">
+        <h1>Velocidad</h1>
+      </div>
+    </div>
+    <div class="date">
+      <div class="txt">
+        <p>
+          La velocidad es aquello que en un cuerpo acelera y se mueve hacia una direccion, la velocidad es un vector, es
+          decir,
+          que a diferencia de la aceleración la velocidad te dice la direccion en la que se mueve,cambia so posicion y
+          con
+          forme
+          pasa el tiempo. Por ejemplo si te digo, un carro anda a una velocidad de 2m/s y se dirije hacia el norte en
+          linea recta.
+        </p>
+      </div>
+      <table class="table_ex">
+        <tr>
+          <td><span class="t1">v</span> = <span class="t2">d</span> / <span class="t3">t</span></td>
+        </tr>
+        <tr>
+          <td><span class="t1">velocidad</span> = <span class="t2">disancia</span> / <span class="t3">tiempo</span>
+          </td>
+        </tr>
+        <tr>
+          <td><span class="unidad">su unidad es en metro sobre segundo (m/s)</span></td>
+        </tr>
+      </table>
+      <div class="txt">
+        Para medir la velocidad necesitamos de dos datos, la distancia que recorrio el cuerpo y el tiempo empleado, solo
+        dividamos el valor numerico de la distancia y el valor numerico del tiempo. Ejemplo, si un camion recorrio una
+        distancia
+        de 100m durante un tiempo de 23s. ¿Cuál sera su velocidad?
+      </div>
+      <div class="table_title">
+        <h3>Tabla</h3>
+      </div>
+      <table class="table">
+        <tr>
+          <th>Datos</th>
+          <th>Fórmula</th>
+          <th>Operación</th>
+          <th>Resultado</th>
+        </tr>
+        <tr>
+          <td><span class="t3">t = 23s</span></td>
+          <td rowspan="2"><span class="t1">v</span> = <span class="t2">d</span> / <span class="t3">t</span></td>
+          <td rowspan="2"><span class="t1">v</span>= <span class="t2">100m</span> / <span class="t3">23s</span></td>
+          <td rowspan="2"><span class="t1">v = 4.34m/s</span></td>
+        </tr>
+        <tr>
+          <td><span class="t2">d = 100m</span></td>
+        </tr>
+      </table>
+    </div>
+  </section>
+  <!--Scripts-->
+  <!--PWA-->
+  <script src="../../scripts/script.js"></script>
+  <script src="../../scripts/sw.js"></script>
+  <!--IONICONS-->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
