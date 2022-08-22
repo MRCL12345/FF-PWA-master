@@ -4,7 +4,7 @@ const CACHE_NAME = 'FF',
   urlsToCache = [
     './',
     'script.js',
-    'img/e.jpg',
+    'img/menu/icono.svg',
   ]
 
 //durante la fase de instalación, generalmente se almacena en caché los activos estáticos
